@@ -32,7 +32,7 @@ export function ExpenseInput(props) {
             className="form-control"
             placeholder="Ex: 3.99"
             name="price"
-            onChange={(e) => setPrice(e.target.value)}
+            onChange={(e) => setPrice(Number.parseFloat(e.target.value))}
           />
         </div>
 

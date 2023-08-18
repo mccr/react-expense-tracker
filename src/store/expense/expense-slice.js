@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const expenseSlice = createSlice({
   name: "expenseSlice",
   initialState: {
-    income: 0,
+    income: 1000,
     expenseList: [],
   },
   reducers: {
